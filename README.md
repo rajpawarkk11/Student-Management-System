@@ -24,11 +24,11 @@ https://github.com/rajpawarkk11/Student-Management-System
 
 ## Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshots/dashboard.png)
 
 ## Student Records
 
-![Student Records](screenshots/dashboard-table.png)
+![Student Records](Screenshots/dashboard-table.png)
 
 ---
 
