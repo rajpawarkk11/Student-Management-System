@@ -82,13 +82,13 @@ def replace_student_record(id:int,student:Student):
 @app.patch("/students/{id}")
 def  update_student_record(id:int,student:Student):
     if(student.id != None):
-        cursor.execute("UPDATE students SET id=%s where id=%s",(student.id,id))
+        cursor.execute("UPDATE students SET id=%s WHERE id=%s",(student.id,id))
         connection.commit()
     if(student.name != None):
-        cursor.execute("UPDATE students SET name=%s where id=%s",(student.name,id))
+        cursor.execute("UPDATE students SET name=%s WHERE id=%s",(student.name,id))
         connection.commit()
     if(student.course != None):
-        cursor.execute("UPDATE students SET course=%s where id=%s",(student.course,id))
+        cursor.execute("UPDATE students SET course=%s WHERE id=%s",(student.course,id))
         connection.commit()
     return{
         "message":"Student Record Updated Successfully"
