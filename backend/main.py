@@ -88,7 +88,7 @@ def  update_student_record(id:int,student:Student):
         cursor.execute("UPDATE students SET name=%s where id=%s",(student.name,id))
         connection.commit()
     if(student.course != None):
-        cursor.execute("UPDATE students SET coures=%s where id=%s",(student.course,id))
+        cursor.execute("UPDATE students SET course=%s where id=%s",(student.course,id))
         connection.commit()
     return{
         "message":"Student Record Updated Successfully"
