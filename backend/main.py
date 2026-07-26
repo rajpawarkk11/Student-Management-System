@@ -30,6 +30,14 @@ class Student(BaseModel):
     course: str = None
 
 # Get all students
+@app.get("/")
+def root():
+    return {
+        "message": "Student Management System API is running successfully 🚀",
+        "docs": "/docs"
+    }
+
+
 @app.get("/students")
 def get_students():
     connection, cursor = get_db()
