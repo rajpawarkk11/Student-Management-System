@@ -1,38 +1,38 @@
 # 🎓 Student Management Dashboard
 
-A modern Full-Stack Student Management Dashboard built using **React**, **FastAPI**, and **PostgreSQL**. This application provides complete CRUD (Create, Read, Update, Delete) functionality with a responsive and professional dashboard interface.
+A modern **Full-Stack Student Management Dashboard** built using **React**, **FastAPI**, and **PostgreSQL**. The application provides complete CRUD (Create, Read, Update, Delete) functionality through a responsive and user-friendly dashboard interface.
 
 ---
 
-# 🚀 Live Demo
+## 🚀 Live Demo
 
-### 🌐 Frontend (Vercel)
+**🌐 Frontend**  
+https://student-management-system-rouge-chi.vercel.app/
 
-https://student-management-system-mfmyl8ter-rajpawarkk11s-projects.vercel.app
+**⚙️ Backend API**  
+https://student-management-system-weq7.onrender.com/
 
-### ⚙️ Backend API (Render)
+**📚 API Documentation (Swagger)**  
+https://student-management-system-weq7.onrender.com/docs
 
-https://student-management-system-weq7.onrender.com
-
-### 💻 GitHub Repository
-
+**💻 GitHub Repository**  
 https://github.com/rajpawarkk11/Student-Management-System
 
 ---
 
-# 📸 Project Screenshots
+## 📸 Project Screenshots
 
-## Dashboard
+### Dashboard
 
 ![Dashboard](Screenshots/dashboard.png)
 
-## Student Records
+### Student Records
 
 ![Student Records](Screenshots/dashboard-table.png)
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 - ➕ Add New Student
 - 📋 View Student Records
@@ -42,57 +42,53 @@ https://github.com/rajpawarkk11/Student-Management-System
 - 📊 Dashboard Statistics
 - 🔔 Toast Notifications
 - 📱 Responsive User Interface
-- ☁️ Cloud PostgreSQL Database
+- ☁️ PostgreSQL Cloud Database
 - 🌐 REST API Integration
-- 🚀 Fully Deployed Project
+- 🚀 Fully Deployed Application
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-## Frontend
-
+### Frontend
 - React.js
+- Vite
 - Axios
 - CSS3
 - React Icons
 - React Hot Toast
 
-## Backend
-
+### Backend
 - FastAPI
 - Python
-- REST API
 - Psycopg2
 
-## Database
-
+### Database
 - PostgreSQL (Neon)
 
-## Deployment
-
+### Deployment
 - Vercel
 - Render
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 Student-Management-System
 │
-├── backend
+├── backend/
 │   ├── main.py
 │   ├── requirements.txt
 │   └── ...
 │
-├── frontend
-│   ├── public
-│   ├── src
+├── frontend/
+│   ├── public/
+│   ├── src/
 │   ├── package.json
 │   └── ...
 │
-├── screenshots
+├── Screenshots/
 │   ├── dashboard.png
 │   └── dashboard-table.png
 │
@@ -101,15 +97,15 @@ Student-Management-System
 
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
 
-## Clone Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/rajpawarkk11/Student-Management-System.git
 ```
 
-### Frontend
+### Frontend Setup
 
 ```bash
 cd frontend
@@ -119,7 +115,7 @@ npm install
 npm run dev
 ```
 
-### Backend
+### Backend Setup
 
 ```bash
 cd backend
@@ -135,66 +131,30 @@ uvicorn main:app --reload
 
 ---
 
-# 🌐 REST API Endpoints
+## 🌐 REST API Endpoints
 
 | Method | Endpoint | Description |
-|--------|----------|-------------|
+|---------|----------|-------------|
 | GET | `/students` | Fetch all students |
+| GET | `/students/{id}` | Fetch a student by ID |
 | POST | `/students` | Add a new student |
 | PUT | `/students/{id}` | Update student details |
 | DELETE | `/students/{id}` | Delete a student |
 
 ---
 
-# 💡 Future Enhancements
+## 👨‍💻 Developer
 
-- 🔐 User Authentication
-- 👤 Admin Login
-- 📊 Student Analytics Dashboard
-- 📈 Charts & Reports
-- 📄 Export to CSV
-- 🌙 Dark Mode
-- 📑 Pagination
+**Raj Pawar**
 
----
-
-# 👨‍💻 Developer
-
-## Raj Pawar
-
-Electrical Engineering Student
-
-### Interests
-
-- Artificial Intelligence
-- Machine Learning
-- Data Analytics
-- Full Stack Development
-
-### GitHub
-
+**GitHub**  
 https://github.com/rajpawarkk11
 
-### LinkedIn
-
-**Add your LinkedIn profile URL here**
-
----
-
-# 📄 License
-
-This project is created for learning, educational, and portfolio purposes.
+**LinkedIn**  
+https://www.linkedin.com/in/raj-pawar-521a2b290
 
 ---
 
-## ⭐ Support
+## 📄 License
 
-If you found this project useful, please consider giving it a **Star ⭐** on GitHub.
-
----
-
-<div align="center">
-
-Made with ❤️ by Raj Pawar
-
-</div>
+This project is developed for educational, learning, and portfolio purposes.
